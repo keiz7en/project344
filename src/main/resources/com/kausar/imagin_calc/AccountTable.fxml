@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kausar.imagin_calc.AccountTable">
+   <children>
+      <Text layoutX="263.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="COMPUTER" />
+      <TextField layoutX="129.0" layoutY="49.0" />
+      <Text layoutX="55.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Serial No:" />
+      <Text layoutX="64.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Brand:" />
+      <Text layoutX="64.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Model:" />
+      <ComboBox layoutX="129.0" layoutY="79.0" prefHeight="24.0" prefWidth="171.0" promptText="   --Select Brand--" />
+      <ComboBox layoutX="129.0" layoutY="109.0" prefHeight="24.0" prefWidth="171.0" promptText="  --Select Model--" />
+      <TextField layoutX="129.0" layoutY="139.0" />
+      <Text layoutX="71.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:" />
+   </children>
+</AnchorPane>
